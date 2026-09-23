@@ -10,7 +10,7 @@ This repository contains simple Python programs for basic programming practice.
 
    * Accepts comma-separated 4-digit binary numbers.
    * Prints the numbers divisible by 5.
-```
+```py
 a=input().split(",")
 result=[]
 for x in a:
@@ -23,7 +23,7 @@ print(",".join(result))
 
    * Accepts a sentence.
    * Counts and displays the number of letters and digits.
-```
+```py
 s=input()
 letters=0
 digits=0
@@ -40,7 +40,7 @@ print("DIGITS: ",digits)
 
    * Accepts a number.
    * Calculates and displays its factorial.
-```
+```py
 s=int(input())
 fact=1
 for i in range(1,s+1):
@@ -67,7 +67,3 @@ DIGITS 3
 ## Output
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/69412108-0edf-4b1a-a7c2-b21f65242a6d" />
 
-
-
-python programs.py
-```
